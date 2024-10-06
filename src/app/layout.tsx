@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: 'Hashimukh Blood Donation',
   description: 'A platform for blood donation organized by Hashimukh Foundation.',
   openGraph: {
-    title: 'Hashimukh Blood Donation',
+    title: 'Hashimukh Blood Donation Cell',
     description: 'Help save lives by donating blood through the Hashimukh Blood Donation platform.',
     url: 'https://hashimukh-blood-donation.vercel.app/',
     images: [

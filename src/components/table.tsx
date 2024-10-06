@@ -16,7 +16,7 @@ interface TableProps {
 
 export default function Table({ array }: TableProps) {
   const header = {
-    id: "Serial",
+    // id: "Serial",
     name: "Name",
     BG: "Blood Group",
     contactNo: "Contact No",
@@ -37,9 +37,9 @@ export default function Table({ array }: TableProps) {
           </tr>
         </thead>
         <tbody>
-          {array.map((row, index) => (
-            <tr key={index}>
-              <td>{row.id}</td>
+          {array.map((row) => (
+            <tr key={row.id}>
+              {/* <td>{row.id}</td> */}
               <td>{row.name}</td>
               <td>{row.BG}</td>
               <td>{row.contactNo}</td>
